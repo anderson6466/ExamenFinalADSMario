@@ -1,7 +1,6 @@
 # ExamenFinalADSMario
 
-UNMSM - UPG - FISI - Ingeniería de Software
-Examen Final - Ambientes de Desarrollo de Software - 2019-1
+ 
 Pegunta 1.  
 Optimizar la siguiente consulta T-SQL:
 
