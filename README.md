@@ -12,6 +12,7 @@ WHERE SUBSTRING(email, 0, CHARINDEX('@', email, 0)) = 'JPerez';
 
 
 Pregunta 2
+
 Respuestas:
 
 Database migrations: 
