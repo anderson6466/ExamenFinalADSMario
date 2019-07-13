@@ -11,7 +11,8 @@ WHERE SUBSTRING(email, 0, CHARINDEX('@', email, 0)) = 'JPerez';
 
 
 
-Pregunta 2. 
+Pregunta 2
+
 Explicar:
 Database migrations: 
 Sirve para migrar y crear tablas dinamicamente apartir de un Query.
