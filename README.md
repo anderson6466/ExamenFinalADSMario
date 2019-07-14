@@ -2,12 +2,15 @@
 
  
 Pegunta 1.  
-Optimizar la siguiente consulta T-SQL:
+Optimizar :
+
+
 
 SELECT *
-FROM Students
-WHERE SUBSTRING(email, 0, CHARINDEX('@', email, 0)) = 'JPerez';
-
+FROM Students c1
+join (select c2.student_id from students c2  
+WHERE  SUBSTRING(email, 0, CHARINDEX('@', email, 0)) = 'JPerez')
+as c3 on c1.student_id = c3.student_id
 
 
 
