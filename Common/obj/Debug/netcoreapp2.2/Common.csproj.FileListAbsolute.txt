@@ -41,11 +41,29 @@ C:\Users\MIA\Documents\GitHub\endopoint_banking_grupo04 - ultimo\API-ADS\Common\
 C:\Users\MIA\Documents\GitHub\endopoint_banking_grupo04 - ultimo\API-ADS\Common\obj\Debug\netcoreapp2.2\Common.AssemblyInfo.cs
 C:\Users\MIA\Documents\GitHub\endopoint_banking_grupo04 - ultimo\API-ADS\Common\obj\Debug\netcoreapp2.2\Common.dll
 C:\Users\MIA\Documents\GitHub\endopoint_banking_grupo04 - ultimo\API-ADS\Common\obj\Debug\netcoreapp2.2\Common.pdb
-C:\Users\Lenovo\Desktop\examenads\API-ADS\Common\bin\Debug\netcoreapp2.2\Common.deps.json
-C:\Users\Lenovo\Desktop\examenads\API-ADS\Common\bin\Debug\netcoreapp2.2\Common.dll
-C:\Users\Lenovo\Desktop\examenads\API-ADS\Common\bin\Debug\netcoreapp2.2\Common.pdb
-C:\Users\Lenovo\Desktop\examenads\API-ADS\Common\obj\Debug\netcoreapp2.2\Common.csproj.CoreCompileInputs.cache
-C:\Users\Lenovo\Desktop\examenads\API-ADS\Common\obj\Debug\netcoreapp2.2\Common.AssemblyInfoInputs.cache
-C:\Users\Lenovo\Desktop\examenads\API-ADS\Common\obj\Debug\netcoreapp2.2\Common.AssemblyInfo.cs
-C:\Users\Lenovo\Desktop\examenads\API-ADS\Common\obj\Debug\netcoreapp2.2\Common.dll
-C:\Users\Lenovo\Desktop\examenads\API-ADS\Common\obj\Debug\netcoreapp2.2\Common.pdb
+C:\Users\Walter\Desktop\API-ADS\Common\bin\Debug\netcoreapp2.2\Common.deps.json
+C:\Users\Walter\Desktop\API-ADS\Common\bin\Debug\netcoreapp2.2\Common.dll
+C:\Users\Walter\Desktop\API-ADS\Common\bin\Debug\netcoreapp2.2\Common.pdb
+C:\Users\Walter\Desktop\API-ADS\Common\obj\Debug\netcoreapp2.2\Common.csproj.CoreCompileInputs.cache
+C:\Users\Walter\Desktop\API-ADS\Common\obj\Debug\netcoreapp2.2\Common.AssemblyInfoInputs.cache
+C:\Users\Walter\Desktop\API-ADS\Common\obj\Debug\netcoreapp2.2\Common.AssemblyInfo.cs
+C:\Users\Walter\Desktop\API-ADS\Common\obj\Debug\netcoreapp2.2\Common.dll
+C:\Users\Walter\Desktop\API-ADS\Common\obj\Debug\netcoreapp2.2\Common.pdb
+C:\Users\Lenovo\Desktop\13072019\Common\bin\Debug\netcoreapp2.2\Common.deps.json
+C:\Users\Lenovo\Desktop\13072019\Common\bin\Debug\netcoreapp2.2\Common.dll
+C:\Users\Lenovo\Desktop\13072019\Common\bin\Debug\netcoreapp2.2\Common.pdb
+C:\Users\Lenovo\Desktop\13072019\Common\obj\Debug\netcoreapp2.2\Common.csprojAssemblyReference.cache
+C:\Users\Lenovo\Desktop\13072019\Common\obj\Debug\netcoreapp2.2\Common.csproj.CoreCompileInputs.cache
+C:\Users\Lenovo\Desktop\13072019\Common\obj\Debug\netcoreapp2.2\Common.AssemblyInfoInputs.cache
+C:\Users\Lenovo\Desktop\13072019\Common\obj\Debug\netcoreapp2.2\Common.AssemblyInfo.cs
+C:\Users\Lenovo\Desktop\13072019\Common\obj\Debug\netcoreapp2.2\Common.dll
+C:\Users\Lenovo\Desktop\13072019\Common\obj\Debug\netcoreapp2.2\Common.pdb
+C:\Users\Lenovo\Desktop\sss\Common\bin\Debug\netcoreapp2.2\Common.deps.json
+C:\Users\Lenovo\Desktop\sss\Common\bin\Debug\netcoreapp2.2\Common.dll
+C:\Users\Lenovo\Desktop\sss\Common\bin\Debug\netcoreapp2.2\Common.pdb
+C:\Users\Lenovo\Desktop\sss\Common\obj\Debug\netcoreapp2.2\Common.csprojAssemblyReference.cache
+C:\Users\Lenovo\Desktop\sss\Common\obj\Debug\netcoreapp2.2\Common.csproj.CoreCompileInputs.cache
+C:\Users\Lenovo\Desktop\sss\Common\obj\Debug\netcoreapp2.2\Common.AssemblyInfoInputs.cache
+C:\Users\Lenovo\Desktop\sss\Common\obj\Debug\netcoreapp2.2\Common.AssemblyInfo.cs
+C:\Users\Lenovo\Desktop\sss\Common\obj\Debug\netcoreapp2.2\Common.dll
+C:\Users\Lenovo\Desktop\sss\Common\obj\Debug\netcoreapp2.2\Common.pdb

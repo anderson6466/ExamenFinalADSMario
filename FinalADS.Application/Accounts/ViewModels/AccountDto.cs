@@ -3,10 +3,10 @@
     public class AccountDto
     {
         public long id { get; set; }
-        public string number { get; set; }
-        public decimal balance { get; set; }
-        public bool locked { get; set; }
-        public string customerName { get; set; }
+        public string Nombres { get; set; }
+        public string Apellidos { get; set; }
+        public string Institucion { get; set; }
+        public int Nroarticulos { get; set; }
 
         public AccountDto()
         {

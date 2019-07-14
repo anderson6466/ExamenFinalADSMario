@@ -18,7 +18,7 @@
         "JWT_AUDIENCE": "web",
         "JWT_EXP_MINUTES": "180",
         "ASPNETCORE_ENVIRONMENT": "Development",
-        "MYSQL_BANKING_CORE": "Server=localhost; database=Biblioteca; UID=root; password=afp123$$"
+        "MYSQL_BANKING_CORE": "Server=localhost; database=biblioteca; UID=root; password=afp123$$"
       }
     },
     "Banking.API": {

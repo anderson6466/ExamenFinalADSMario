@@ -5,6 +5,5 @@ namespace FinalADS.Application.Accounts.Contracts
     public interface IAccountApplicationService
     {
         NewAccountResponseDto Register(NewAccountDto newAccountDto);
-        NewAccountResponseDto RegisterArticulo(Articulo newAArticulo);
     }
 }

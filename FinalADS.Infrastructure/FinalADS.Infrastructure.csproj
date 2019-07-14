@@ -5,25 +5,20 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <None Remove="Migrations\MySQL\5_CreateArticuloTable.sql" />
     <None Remove="Migrations\MySQL\7_CreateAccountTable.sql" />
     <None Remove="Migrations\MySQL\7_InsertAccounts.sql" />
-    <None Remove="Migrations\MySQL\Autor.sql" />
-    <None Remove="Migrations\MySQL\InsertAutor.sql" />
-    <None Remove="Migrations\MySQL\Articulo_Cientifico.sql" />
-    <None Remove="Migrations\MySQL\InsertArticulo_Cientifico.sql" />
-    
+    <None Remove="Migrations\MySQL\8_InsertArticulo.sql" />
   </ItemGroup>
 
   <ItemGroup>
-    <EmbeddedResource Include="Migrations\MySQL\7_InsertAccounts.sql" />
+    <EmbeddedResource Include="Migrations\MySQL\5_CreateArticuloTable.sql" />
     <EmbeddedResource Include="Migrations\MySQL\7_CreateAccountTable.sql" />
-    <EmbeddedResource Include="Migrations\MySQL\Autor.sql" />
-    <EmbeddedResource Include="Migrations\MySQL\InsertAutor.sql" />
-    <EmbeddedResource Include="Migrations\MySQL\Articulo_Cientifico.sql" />
-    <EmbeddedResource Include="Migrations\MySQL\InsertArticulo_Cientifico.sql" />
+    <EmbeddedResource Include="Migrations\MySQL\8_InsertArticulo.sql" />
+ 
+    <EmbeddedResource Include="Migrations\MySQL\7_InsertAccounts.sql" />
+   
   </ItemGroup>
-  
-  
 
   <ItemGroup>
     <Folder Include="Seedwork\" />

@@ -14,24 +14,13 @@ namespace FinalADS.Application.Accounts.Assemblers
             _mapper = mapper;
         }
 
-        public Account ToEntity(NewAccountDto newAccountDto)
+        public Autor ToEntity(NewAccountDto newAccountDto)
         {
-            Account account = _mapper.Map<Account>(newAccountDto);
+            Autor account = _mapper.Map<Autor>(newAccountDto);
             DateTime utcNow = DateTime.UtcNow;
-            account.CreatedAt = utcNow;
-            account.UpdatedAt = utcNow;
+           // account.CreatedAt = utcNow;
+           //// account.UpdatedAt = utcNow;
             return account;
         }
-        public Articulo ToEntityArticulo(Articulo newArticulo)
-        {
-            Articulo Articulo = _mapper.Map<Articulo>(newArticulo);
-            DateTime utcNow = DateTime.UtcNow;
-           // Articulo.Contenido = utcNow;
-            //account.UpdatedAt = utcNow;
-            return Articulo;
-        }
-
-
-
     }
 }

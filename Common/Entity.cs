@@ -5,11 +5,11 @@ namespace Common
 {
     public abstract class Entity
     {
-        public virtual long Id { get; protected set; }
-        public virtual DateTime CreatedAt { get; set; }
-        public virtual DateTime UpdatedAt { get; set; }
+        public virtual int  Id { get; protected set; }
+        //public virtual DateTime CreatedAt { get; set; }
+        //public virtual DateTime UpdatedAt { get; set; }
 
-        public override bool Equals(object obj)
+         public override bool Equals(object obj)
         {
             if (!(obj is Entity other))
                 return false;
@@ -25,7 +25,7 @@ namespace Common
 
             return Id == other.Id;
         }
-
+        
         public static bool operator ==(Entity a, Entity b)
         {
             if (a is null && b is null)
@@ -42,10 +42,10 @@ namespace Common
             return !(a == b);
         }
 
-        public override int GetHashCode()
+         public override int GetHashCode()
         {
             return (GetRealType().ToString() + Id).GetHashCode();
-        }
+        } 
 
         private Type GetRealType()
         {

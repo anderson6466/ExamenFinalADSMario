@@ -5049,11 +5049,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Lenovo\\Desktop\\examenads\\API-ADS\\FinalADS.Application\\FinalADS.Application.csproj",
+      "projectUniqueName": "C:\\Users\\Lenovo\\Desktop\\sss\\FinalADS.Application\\FinalADS.Application.csproj",
       "projectName": "FinalADS.Application",
-      "projectPath": "C:\\Users\\Lenovo\\Desktop\\examenads\\API-ADS\\FinalADS.Application\\FinalADS.Application.csproj",
+      "projectPath": "C:\\Users\\Lenovo\\Desktop\\sss\\FinalADS.Application\\FinalADS.Application.csproj",
       "packagesPath": "C:\\Users\\Lenovo\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Lenovo\\Desktop\\examenads\\API-ADS\\FinalADS.Application\\obj\\",
+      "outputPath": "C:\\Users\\Lenovo\\Desktop\\sss\\FinalADS.Application\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -5072,11 +5072,11 @@
       "frameworks": {
         "netcoreapp2.2": {
           "projectReferences": {
-            "C:\\Users\\Lenovo\\Desktop\\examenads\\API-ADS\\FinalADS.Domain\\FinalADS.Domain.csproj": {
-              "projectPath": "C:\\Users\\Lenovo\\Desktop\\examenads\\API-ADS\\FinalADS.Domain\\FinalADS.Domain.csproj"
+            "C:\\Users\\Lenovo\\Desktop\\sss\\FinalADS.Domain\\FinalADS.Domain.csproj": {
+              "projectPath": "C:\\Users\\Lenovo\\Desktop\\sss\\FinalADS.Domain\\FinalADS.Domain.csproj"
             },
-            "C:\\Users\\Lenovo\\Desktop\\examenads\\API-ADS\\FinalADS.Infrastructure\\FinalADS.Infrastructure.csproj": {
-              "projectPath": "C:\\Users\\Lenovo\\Desktop\\examenads\\API-ADS\\FinalADS.Infrastructure\\FinalADS.Infrastructure.csproj"
+            "C:\\Users\\Lenovo\\Desktop\\sss\\FinalADS.Infrastructure\\FinalADS.Infrastructure.csproj": {
+              "projectPath": "C:\\Users\\Lenovo\\Desktop\\sss\\FinalADS.Infrastructure\\FinalADS.Infrastructure.csproj"
             }
           }
         }

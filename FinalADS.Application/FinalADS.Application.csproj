@@ -5,6 +5,7 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Folder Include="Clientes\Validations\" />
     <Folder Include="Accounts\Validations\" />
   </ItemGroup>
 

@@ -2,7 +2,7 @@
 {
     public static class AccountAppConstants
     {
-        public const string AccountCreated = "Account Created";
+        public const string AccountCreated = "Autor Creado";
         public const string AccountHasNoIdentity = "The account has no identity";
         public const string AccountIsLocked = "The account is locked";
         public const string AccountDelete = "Walter atrasador";

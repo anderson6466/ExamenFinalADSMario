@@ -5,6 +5,14 @@ using FinalADS.Application.Accounts.Queries;
 using FinalADS.Application.Accounts.Services;
 using FinalADS.Domain.Accounts.Contracts;
 using FinalADS.Infrastructure.Accounts.Persistence.NHibernate.Repository;
+
+
+using FinalADS.Application.Clientes.Assemblers;
+using FinalADS.Application.Clientes.Contracts;
+using FinalADS.Application.Clientes.Services;
+using FinalADS.Domain.Clientes.Contracts;
+using FinalADS.Infrastructure.Clientes.Persistence.NHibernate.Repository;
+
 using FinalADS.Infrastructure.NHibernate;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
@@ -15,6 +23,7 @@ using Microsoft.OpenApi.Models;
 using Common;
 using System;
 using System.Text;
+using FinalADS.Application.Clientes.Queries;
 
 namespace FinalADS.API
 {
@@ -33,22 +42,33 @@ namespace FinalADS.API
             {
                 services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_2_2);
                 services.AddAutoMapper();
-                services.AddSingleton(new SessionFactory(Environment.GetEnvironmentVariable("MYSQL_EXAM_ARTICULOS")));
+                services.AddSingleton(new SessionFactory(Environment.GetEnvironmentVariable("MYSQL_BANKING_CORE")));
                 var serviceProvider = services.BuildServiceProvider();
                 var mapper = serviceProvider.GetService<IMapper>();
                 services.AddSingleton(new NewAccountAssembler(mapper));
-               
+
+                services.AddSingleton(new NewClienteAssembler(mapper));
+
                 services.AddScoped<IUnitOfWork, UnitOfWorkNHibernate>();
                 services.AddScoped<IAccountApplicationService, AccountApplicationService>();
+
+                services.AddScoped<IClienteApplicationService, ClienteApplicationService>();
+
                 services.AddTransient<IAccountRepository, AccountNHibernateRepository>((ctx) =>
                 {
                     IUnitOfWork unitOfWork = ctx.GetService<IUnitOfWork>();
                     return new AccountNHibernateRepository((UnitOfWorkNHibernate)unitOfWork);
                 });
-               
+
+
+                services.AddTransient<IClienteRepository, ClienteNHibernateRepository>((ctx) =>
+                {
+                    IUnitOfWork unitOfWork = ctx.GetService<IUnitOfWork>();
+                    return new ClienteNHibernateRepository((UnitOfWorkNHibernate)unitOfWork);
+                });
                 services.AddSingleton<IAccountQueries, AccountMySQLDapperQueries>();
-               
-               
+                services.AddSingleton<IClientesQueries, ClienteMySQLDapperQueries>();
+
                 services.AddAuthorization(cfg =>
                 {
                     // NOTE: The claim type and value are case-sensitive

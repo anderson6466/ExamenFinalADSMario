@@ -14461,11 +14461,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Lenovo\\Desktop\\examenads\\API-ADS\\FinalADS.API\\FinalADS.API.csproj",
+      "projectUniqueName": "C:\\Users\\Lenovo\\Desktop\\sss\\FinalADS.API\\FinalADS.API.csproj",
       "projectName": "FinalADS.API",
-      "projectPath": "C:\\Users\\Lenovo\\Desktop\\examenads\\API-ADS\\FinalADS.API\\FinalADS.API.csproj",
+      "projectPath": "C:\\Users\\Lenovo\\Desktop\\sss\\FinalADS.API\\FinalADS.API.csproj",
       "packagesPath": "C:\\Users\\Lenovo\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Lenovo\\Desktop\\examenads\\API-ADS\\FinalADS.API\\obj\\",
+      "outputPath": "C:\\Users\\Lenovo\\Desktop\\sss\\FinalADS.API\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -14484,11 +14484,11 @@
       "frameworks": {
         "netcoreapp2.2": {
           "projectReferences": {
-            "C:\\Users\\Lenovo\\Desktop\\examenads\\API-ADS\\FinalADS.Application\\FinalADS.Application.csproj": {
-              "projectPath": "C:\\Users\\Lenovo\\Desktop\\examenads\\API-ADS\\FinalADS.Application\\FinalADS.Application.csproj"
+            "C:\\Users\\Lenovo\\Desktop\\sss\\FinalADS.Application\\FinalADS.Application.csproj": {
+              "projectPath": "C:\\Users\\Lenovo\\Desktop\\sss\\FinalADS.Application\\FinalADS.Application.csproj"
             },
-            "C:\\Users\\Lenovo\\Desktop\\examenads\\API-ADS\\FinalADS.Infrastructure\\FinalADS.Infrastructure.csproj": {
-              "projectPath": "C:\\Users\\Lenovo\\Desktop\\examenads\\API-ADS\\FinalADS.Infrastructure\\FinalADS.Infrastructure.csproj"
+            "C:\\Users\\Lenovo\\Desktop\\sss\\FinalADS.Infrastructure\\FinalADS.Infrastructure.csproj": {
+              "projectPath": "C:\\Users\\Lenovo\\Desktop\\sss\\FinalADS.Infrastructure\\FinalADS.Infrastructure.csproj"
             }
           }
         }

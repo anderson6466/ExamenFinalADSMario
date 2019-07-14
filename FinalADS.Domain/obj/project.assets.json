@@ -3512,11 +3512,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Lenovo\\Desktop\\examenads\\API-ADS\\FinalADS.Domain\\FinalADS.Domain.csproj",
+      "projectUniqueName": "C:\\Users\\Lenovo\\Desktop\\sss\\FinalADS.Domain\\FinalADS.Domain.csproj",
       "projectName": "FinalADS.Domain",
-      "projectPath": "C:\\Users\\Lenovo\\Desktop\\examenads\\API-ADS\\FinalADS.Domain\\FinalADS.Domain.csproj",
+      "projectPath": "C:\\Users\\Lenovo\\Desktop\\sss\\FinalADS.Domain\\FinalADS.Domain.csproj",
       "packagesPath": "C:\\Users\\Lenovo\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Lenovo\\Desktop\\examenads\\API-ADS\\FinalADS.Domain\\obj\\",
+      "outputPath": "C:\\Users\\Lenovo\\Desktop\\sss\\FinalADS.Domain\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -3535,8 +3535,8 @@
       "frameworks": {
         "netcoreapp2.2": {
           "projectReferences": {
-            "C:\\Users\\Lenovo\\Desktop\\examenads\\API-ADS\\Common\\Common.csproj": {
-              "projectPath": "C:\\Users\\Lenovo\\Desktop\\examenads\\API-ADS\\Common\\Common.csproj"
+            "C:\\Users\\Lenovo\\Desktop\\sss\\Common\\Common.csproj": {
+              "projectPath": "C:\\Users\\Lenovo\\Desktop\\sss\\Common\\Common.csproj"
             }
           }
         }

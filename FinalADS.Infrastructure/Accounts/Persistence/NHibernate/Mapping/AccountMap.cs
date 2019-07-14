@@ -3,16 +3,18 @@ using FluentNHibernate.Mapping;
 
 namespace FinalADS.Infrastructure.Accounts.Persistence.NHibernate.Mapping
 {
-    public class AccountMap : ClassMap<Account>
+    public class AutorMap : ClassMap<Autor>
     {
-        public AccountMap()
-        {
-            Id(x => x.Id).Column("account_id");
-            Map(x => x.Number).Column("number");
-            Map(x => x.Balance).Column("balance");
-            Map(x => x.Locked).CustomType<bool>().Column("locked");
-            Map(x => x.CreatedAt).Column("created_at_utc");
-            Map(x => x.UpdatedAt).Column("updated_at_utc");
+        public AutorMap()
+        {     Table("autor");
+           
+            Id(x => x.Id).Column("autor_id");
+            Map(x => x.Nombres).Length(50).Column("nombres");
+            Map(x => x.Apellidos).Length(50).Column("apellidos");
+            Map(x => x.Institucion).Length(50).Column("institucion");
+            Map(x => x.Nroarticulos).Column("nroarticulos");
+           // Map(x => x.CreatedAt).Column("created_at_utc");
+          //  Map(x => x.UpdatedAt).Column("updated_at_utc");
             //References(x => x.Customer, "customer_id");
         }
     }

@@ -8,13 +8,15 @@ namespace FinalADS.Application.Accounts.Profiles
     {
         public NewAccountProfile()
         {
-            /*CreateMap<NewAccountDto, Account>()
-                .ForMember(
-                    dest => dest.Customer,
-                    opts => opts.MapFrom(
-                        src => new Customer(src.CustomerId)
-                    )
-                ).ReverseMap();*/
+
+            CreateMap<NewAccountDto, Autor>()
+                /* .ForMember(
+                     dest => dest.Customer,
+                     opts => opts.MapFrom(
+                         src => new Customer(src.CustomerId)
+                     ))*/
+                .ReverseMap();
+            
         }
     }
 }

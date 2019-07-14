@@ -10,54 +10,21 @@ namespace FinalADS.Application.Accounts.Queries
 {
     public class AccountMySQLDapperQueries : IAccountQueries
     {
-        public void DeleteAccount(long accountId)
-        {
-            string sql = @"
-                        delete from 
-                        account where account_id = @AccountID
-                    ;";
-            string connectionString = Environment.GetEnvironmentVariable("MYSQL_EXAM_ARTICULOS");
-            using (MySqlConnection connection = new MySqlConnection(connectionString))
-            {
-                try
-                {
-                    connection.Open();
-                    connection
-                    .Query<AccountDto>(sql, new
-                    {
-                        AccountID = accountId
-                    })
-                    .ToList();
-                }
-                catch (Exception ex)
-                {
-                    ex.ToString();
-                    
-                }
-                finally
-                {
-                    if (connection.State != System.Data.ConnectionState.Closed)
-                    {
-                        connection.Close();
-                    }
-                }
-            }
-        }
-        public List<AccountDto> GetListPaginated(long customerId, int page = 0, int pageSize = 5)
+        
+        public List<AccountDto> GetListPaginated(int page = 0, int pageSize = 5)
         {
             string sql = @"
                     SELECT 
                         a.account_id AS id,
-                        a.number,
-                        a.balance,
-                        a.locked
+                        a.nombres,
+                        a.apellidos,
+                        a.institucion,
+                        a.nroarticulos
                     FROM 
-                        account a
-                    where
-                        a.customer_id = @CustomerId
+                        autor a
                     ORDER BY 
-                        a.number ASC;";
-            string connectionString = Environment.GetEnvironmentVariable("MYSQL_EXAM_ARTICULOS");
+                        a.account_id ASC;";
+            string connectionString = Environment.GetEnvironmentVariable("MYSQL_BANKING_CORE");
             using (MySqlConnection connection = new MySqlConnection(connectionString))
             {
                 try
@@ -67,8 +34,7 @@ namespace FinalADS.Application.Accounts.Queries
                     .Query<AccountDto>(sql, new
                     {
                         Page = page,
-                        PageSize = pageSize,
-                        CustomerId = customerId
+                        PageSize = pageSize
                     })
                     .ToList();
                     return accounts;

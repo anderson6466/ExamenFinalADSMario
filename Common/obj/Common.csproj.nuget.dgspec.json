@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Lenovo\\Desktop\\examenads\\API-ADS\\Common\\Common.csproj": {}
+    "C:\\Users\\Lenovo\\Desktop\\sss\\Common\\Common.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Lenovo\\Desktop\\examenads\\API-ADS\\Common\\Common.csproj": {
+    "C:\\Users\\Lenovo\\Desktop\\sss\\Common\\Common.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Lenovo\\Desktop\\examenads\\API-ADS\\Common\\Common.csproj",
+        "projectUniqueName": "C:\\Users\\Lenovo\\Desktop\\sss\\Common\\Common.csproj",
         "projectName": "Common",
-        "projectPath": "C:\\Users\\Lenovo\\Desktop\\examenads\\API-ADS\\Common\\Common.csproj",
+        "projectPath": "C:\\Users\\Lenovo\\Desktop\\sss\\Common\\Common.csproj",
         "packagesPath": "C:\\Users\\Lenovo\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Lenovo\\Desktop\\examenads\\API-ADS\\Common\\obj\\",
+        "outputPath": "C:\\Users\\Lenovo\\Desktop\\sss\\Common\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

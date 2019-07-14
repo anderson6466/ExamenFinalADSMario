@@ -3,9 +3,9 @@ using Common;
 
 namespace FinalADS.Domain.Accounts.Contracts
 {
-    public interface IAccountRepository : IRepository<Account>
+    public interface IAccountRepository : IRepository<Autor>
     {
-        Account GetByNumber(string accountNumber);
-        Account GetByNumberWithUpgradeLock(string accountNumber);
+        Autor GetByNumber(string accountNumber);
+        Autor GetByNumberWithUpgradeLock(string accountNumber);
     }
 }

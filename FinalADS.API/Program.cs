@@ -30,7 +30,7 @@ namespace FinalADS.API
                 .ConfigureRunner(rb => rb
                     .WithGlobalCommandTimeout(new TimeSpan(1, 0, 0))
                     .AddMySql5()
-                    .WithGlobalConnectionString(Environment.GetEnvironmentVariable("MYSQL_EXAM_ARTICULOS"))
+                    .WithGlobalConnectionString(Environment.GetEnvironmentVariable("MYSQL_BANKING_CORE"))
                     .ScanIn(typeof(CreateAccountTable).Assembly)
                     .For.All()
                 )

@@ -2,7 +2,7 @@
 
 namespace FinalADS.Infrastructure.Migrations.MySQL
 {
-    [Migration(70)]
+    [Migration(150)]
     public class CreateAccountTable : Migration
     {
         public override void Up()

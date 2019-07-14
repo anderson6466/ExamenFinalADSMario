@@ -31,7 +31,7 @@ namespace FinalADS.Application.Accounts.Services
         {
             try
             {
-                Account account = _newAccountAssembler.ToEntity(newAccountDto);
+                Autor account = _newAccountAssembler.ToEntity(newAccountDto);
                 _accountRepository.SaveOrUpdate(account);
                 return new NewAccountResponseDto
                 {
@@ -51,28 +51,5 @@ namespace FinalADS.Application.Accounts.Services
             }
         }
 
-        public NewAccountResponseDto RegisterArticulo(Articulo newAArticulo)
-        {
-            try
-            {
-                Articulo Articulo  = _newAccountAssembler.ToEntityArticulo(newAArticulo);
-               // _accountRepository.SaveOrUpdate(newAArticulo);
-                return new NewAccountResponseDto
-                {
-                    HttpStatusCode = StatusCodes.Status201Created,
-                    Response = new ApiStringResponse(AccountAppConstants.AccountCreated)
-                };
-            }
-            catch (Exception ex)
-            {
-                //TODO: Log exception async, for now write exception in the console
-                Console.WriteLine(ex.Message);
-                return new NewAccountResponseDto
-                {
-                    HttpStatusCode = StatusCodes.Status500InternalServerError,
-                    Response = new ApiStringResponse(ApiConstants.InternalServerError)
-                };
-            }
-        }
     }
 }
